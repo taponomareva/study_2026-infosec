@@ -23,7 +23,7 @@ crossref:
   lol-title: "Листинги"
 ## Bibliography
 bibliography:
-  - bib/cite.bib
+  - /home/taponomareva/Documents/study_2026-infosec/labs/lab07/report/bib/cite.bib
 csl: _resources/csl/gost-r-7-0-5-2008-numeric.csl
 ## Formats
 format:
@@ -52,13 +52,6 @@ format:
     #### Language
     babel-lang: russian
     babel-otherlangs: english
-    #### Biblatex
-    cite-method: biblatex
-    biblio-style: gost-numeric
-    biblatexoptions:
-      - backend=biber
-      - langhook=extras
-      - autolang=other*
     #### Misc options
     csquotes: true
     indent: true
